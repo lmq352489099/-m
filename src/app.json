@@ -1,13 +1,46 @@
 {
-  "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "1111WeChat123",
-    "navigationBarTextStyle": "black"
-  }
-}
+	  "pages":[
+		  "pages/me/main",
+		  "pages/books/main",
+			"pages/comments/main",
+			"pages/detail/main",
+			"pages/myday/main"
+
+		],
+	  "window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#EA5149",
+		"navigationBarTitleText": "敏捷图书",
+		"navigationBarTextStyle": "light"
+	  },
+	  "tabBar":{
+		  "selectedColor":"#66ccff",
+		  "list":[
+			  {
+				"pagePath":"pages/books/main",
+				"text":"图书",
+				"iconPath":"static/img/book.png",
+				"selectedIconPath":"static/img/book-active.png"
+				},
+				{
+					"pagePath":"pages/myday/main",
+					"text":"123",
+					"iconPath":"static/img/book.png",
+					"selectedIconPath":"static/img/book-active.png"
+					},
+			  {
+				"pagePath":"pages/comments/main",
+				"text":"评论",
+				"iconPath":"static/img/todo.png",
+				"selectedIconPath":"static/img/todo-active.png"
+			  },
+			  {
+				"pagePath":"pages/me/main",
+				"text":"个人中心",
+				"iconPath":"static/img/me.png",
+				"selectedIconPath":"static/img/me-active.png"
+			  }
+		  ]
+	  }
+	}
+  
